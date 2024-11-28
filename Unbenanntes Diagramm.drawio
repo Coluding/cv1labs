@@ -7,7 +7,16 @@
         <mxCell id="9nv9T6_BUz3yetUgY7wj-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-37" target="9nv9T6_BUz3yetUgY7wj-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9nv9T6_BUz3yetUgY7wj-37" value="Web App (FE+BE) zum Prozessmanagement&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-37" target="9nv9T6_BUz3yetUgY7wj-132">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="67" />
+              <mxPoint x="630" y="140" />
+              <mxPoint x="770" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-37" value="Web App (FE+BE) zum Prozessmanagement&lt;div&gt;&lt;div&gt;und Clearing&lt;/div&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="390" y="35" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="9nv9T6_BUz3yetUgY7wj-39" value="Storage Account mit zu&amp;nbsp;&lt;div&gt;prüfenden/importierenden Daten&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
@@ -52,6 +61,9 @@
         <mxCell id="9nv9T6_BUz3yetUgY7wj-85" value="auslösender http trigger&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364.75" y="300" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-88" target="9nv9T6_BUz3yetUgY7wj-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9nv9T6_BUz3yetUgY7wj-88" value="Erfolgsmeldung des jeweiligen Prüfungsschrittes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="150" width="120" height="50" as="geometry" />
         </mxCell>
@@ -76,6 +88,14 @@
             <mxPoint x="830" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-101" target="9nv9T6_BUz3yetUgY7wj-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="440" />
+              <mxPoint x="580" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9nv9T6_BUz3yetUgY7wj-101" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;5. Datenabgleich&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="630" y="500" width="140" height="30" as="geometry" />
         </mxCell>
@@ -91,14 +111,21 @@
         <mxCell id="9nv9T6_BUz3yetUgY7wj-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-112" target="9nv9T6_BUz3yetUgY7wj-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9nv9T6_BUz3yetUgY7wj-122" value="6. Manuelles Clearing Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="240" width="120" height="40" as="geometry" />
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-122" value="6. Manuelles Clearing in Web App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9nv9T6_BUz3yetUgY7wj-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.395;entryY=-0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-37" target="9nv9T6_BUz3yetUgY7wj-122">
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-122" target="9nv9T6_BUz3yetUgY7wj-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-132" target="9nv9T6_BUz3yetUgY7wj-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9nv9T6_BUz3yetUgY7wj-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.917;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9nv9T6_BUz3yetUgY7wj-122" target="9nv9T6_BUz3yetUgY7wj-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9nv9T6_BUz3yetUgY7wj-132" value="Finaler manueller Trigger zur Datenbereitstellung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="260" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
